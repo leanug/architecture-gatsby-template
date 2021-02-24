@@ -30,7 +30,7 @@ const Hero = () => {
                 image={ fluid }
             >
                 <article>
-                    <h4>Creative Designs and Creative Works</h4>
+                    <p>Creative Designs and Creative Works</p>
                     <h1>Minimalist and sustainable home and office decorations</h1>
                     <Link to="/portfolio">Portfolio</Link>
                 </article>
@@ -39,11 +39,15 @@ const Hero = () => {
     );
 };
 
-const Wrapper = styled.section`
+const Wrapper = styled.div`
     article {
         width: 90vw;
         max-width: 80rem;
         text-align: center;
+
+        p {
+          font-size: 1.6rem;
+        }
 
         h1 {
           line-height: 1.25;

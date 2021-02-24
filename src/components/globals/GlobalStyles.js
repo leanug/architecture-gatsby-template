@@ -87,6 +87,19 @@ const Globals = createGlobalStyle`
         margin: 0 auto;
         width: 90vw;
     }
+    
+    .bcg {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+    }
+
+    .banner {
+        min-height: 35vh;
+        display: grid;
+        padding: 10rem 0;
+        place-items: center;
+    }
 
     .container-fluid {
         margin: 0 4rem;

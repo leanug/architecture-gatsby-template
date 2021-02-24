@@ -5,6 +5,39 @@ import { FiMail } from 'react-icons/fi'
 import styled from 'styled-components'
 import { setColor, setRadius } from '../styles/'
 
+const Contact = () => (
+    <Wrapper>
+        <div className="content">
+            <div className="info">
+                <div className="box">
+                    <p>
+                        I'm baby master cleanse lyft leggings, gluten-free mixtape authentic 
+                        90's snackwave slow-carb hell of four loko. Bitters asymmetrical keffiyeh 
+                        vape.
+                    </p>
+                    <address className="info-data">
+                        <p><BsGeoAlt className="contact-icon" /> 69 Scotchmere Dr / Goderich / Ontario</p>
+                        <p><BsPhone className="contact-icon" /> 519-955-1010</p>
+                        <p><BsPhone className="contact-icon" /> 780-346-3355</p>
+                        <p><FiMail className="contact-icon" /> contact@email.com</p>
+                    </address>
+                </div>
+            </div>
+            <div className="box">
+                <form>
+                    <label htmlFor="contact-name">Name</label>
+                    <input type="text" id="contact-name" className="form-control" />
+                    <label htmlFor="contact-email">Email</label>
+                    <input type="email" id="contact-email" className="form-control" />
+                    <label htmlFor="contact-message">Message</label>
+                    <textarea name="message" rows="5" id="contact-message" className="form-control"></textarea>
+                    <Button type="submit">submit here</Button>
+                </form>
+            </div>
+        </div>
+    </Wrapper>
+)
+
 const Wrapper = styled.section`
     .content {
         display: grid;
@@ -51,38 +84,5 @@ const Wrapper = styled.section`
         width: 100%;
     }
 `
-
-const Contact = () => (
-    <Wrapper>
-        <div className="content">
-            <div className="info">
-                <div className="box">
-                    <p>
-                        I'm baby master cleanse lyft leggings, gluten-free mixtape authentic 
-                        90's snackwave slow-carb hell of four loko. Bitters asymmetrical keffiyeh 
-                        vape.
-                    </p>
-                    <address className="info-data">
-                        <p><BsGeoAlt className="contact-icon" /> 69 Scotchmere Dr / Goderich / Ontario</p>
-                        <p><BsPhone className="contact-icon" /> 519-955-1010</p>
-                        <p><BsPhone className="contact-icon" /> 780-346-3355</p>
-                        <p><FiMail className="contact-icon" /> contact@email.com</p>
-                    </address>
-                </div>
-            </div>
-            <div className="box">
-                <form>
-                    <label htmlFor="contact-name">Name</label>
-                    <input type="text" id="contact-name" className="form-control" />
-                    <label htmlFor="contact-email">Email</label>
-                    <input type="email" id="contact-email" className="form-control" />
-                    <label htmlFor="contact-message">Message</label>
-                    <textarea name="message" rows="5" id="contact-message" className="form-control"></textarea>
-                    <Button type="submit">submit here</Button>
-                </form>
-            </div>
-        </div>
-    </Wrapper>
-)
 
 export default Contact;

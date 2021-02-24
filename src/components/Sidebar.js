@@ -20,7 +20,6 @@ const Sidebar = ({ isOpen, toggleSidebar }) => (
           <Links styleClass={`${isOpen ? 'sidebar-links' : ''}`} />
       </div>
       <div className="links-container">
-      <p><h5>Get in touch</h5></p>
           <SocialLinks styleClass="social-icons-sidebar" />
       </div>
       <footer>
