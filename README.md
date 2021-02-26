@@ -1,6 +1,6 @@
 # OMEGA Architecture GATSBY MDX
 
-![Home Image](https://github.com/leanug/architecture-gatsby-template/blob/main/src/assets/mainImg.jpg)
+![Home Image](https://github.com/leanug/architecture-gatsby-template/blob/main/static/mainImg.jpg)
 
 ## Project Setup
 
