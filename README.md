@@ -1,12 +1,13 @@
 # OMEGA Architecture GATSBY MDX
 
+![Home Image](https://github.com/leanug/architecture-gatsby-template/blob/main/src/assets/home.jpg)
+
 ## Project Setup
 
 1. Base - Gatsby Starter
 2. Components + Imports - ready
-3. main.css + styled components
+3. Global Styles + styled components
 4. constants (different setup)
-5. Complete React Components for MDX
 
 ## Boring Components
 
@@ -118,29 +119,6 @@
 1. Gatsby Docs
 2. Gotchas - url, styling
 3. Use in template - johnsmilga.com
-
-### MDX Wrapper
-
-1. Gatsby wrapRootElement
-   [Wrap Root Element ] : https://www.gatsbyjs.org/docs/browser-apis/#wrapRootElement
-2. MDX
-   [MDX Reference] : https://mdxjs.com/getting-started
-3. Gatsby/MDX Reference
-   [ Elements Reference] : https://www.gatsbyjs.org/docs/mdx/customizing-components/
-
-### prism-react-renderer
-
-[docs]: https://github.com/FormidableLabs/prism-react-renderer
-
-```
-npm install --save prism-react-renderer
-```
-
-1. our code - props.children.props.children.trim()
-2. language -
-   props.children.props.className
-   className.replace(/language-/,'')
-3. theme
 
 ### Favicon
 
