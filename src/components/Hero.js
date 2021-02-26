@@ -7,9 +7,9 @@ import { useStaticQuery, graphql } from "gatsby"
 
 const query = graphql`
   {
-    file(relativePath: { eq: "home.jpg" }) {
+    file(relativePath: { eq: "person-1.jpg" }) {
       childImageSharp {
-        fluid(quality: 100, maxWidth: 6000) {
+        fluid(quality: 100, maxWidth: 1920) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -29,7 +29,7 @@ const Hero = () => {
             <Background
                 image={ fluid }
             >
-                <article>
+                <article className="fade-in">
                     <p>Creative Designs and Creative Works</p>
                     <h1>Minimalist and sustainable home and office decorations</h1>
                     <Link to="/portfolio">Portfolio</Link>

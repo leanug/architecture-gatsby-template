@@ -76,7 +76,7 @@ const about = ({ data }) => {
               <Team />
           </section>
 
-          <Background styleClass="banner">
+          <Background styleClass="banner fade-in">
               <div className="container center">
                   <h2 className="display-2">Lorem ipsum dolor sit amet.</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, rerum!</p>
